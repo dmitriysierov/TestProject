@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="post"
+            type="com.example.testproject.data.model.response.PostResponseItem" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@{`User id: ` + post.userId}"
+            android:textAppearance="@style/VisbyMedium.TextAzureRadiance.Normal14"
+            tools:text="User id: 1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:text="@{`Title: ` + post.title}"
+            android:textAppearance="@style/VisbyMedium.Black.Large19"
+            tools:text="Title: ea molestias quasi exercitationem repellat qui ipsa sit aut" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:text="@{`Title: ` + post.body}"
+            android:textAppearance="@style/VisbyMedium.TextAzureRadiance.Normal14"
+            tools:text="Body: et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut" />
+    </LinearLayout>
+</layout>

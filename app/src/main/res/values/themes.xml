@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TestProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="VisbyMedium">
+        <item name="fontFamily">@font/visby_medium</item>
+    </style>
+
+    <style name="VisbyMedium.TextAzureRadiance">
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="VisbyMedium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="VisbyMedium.TextAzureRadiance.Normal14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="VisbyMedium.Black.Large19">
+        <item name="android:textSize">19sp</item>
+    </style>
+
+</resources>
